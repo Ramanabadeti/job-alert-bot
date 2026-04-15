@@ -1,0 +1,16 @@
+{
+  "name": "job-alert-bot",
+  "version": "1.0.0",
+  "description": "Daily job alert bot — searches fresh Milwaukee-area dev jobs and emails ATS-scored results",
+  "type": "module",
+  "main": "search.js",
+  "scripts": {
+    "start": "node search.js",
+    "test": "node search.js --dry-run"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "node-fetch": "^3.3.2",
+    "nodemailer": "^6.9.13"
+  }
+}
